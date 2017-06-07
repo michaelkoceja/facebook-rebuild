@@ -29,17 +29,19 @@
 
 .hero {
   @include grid-column(12 of 12);
+  margin-bottom: 10px;
 }
 
 //Main body grid
 
 .profile-feed {
   @include grid-column(7);
+  border: 1px solid black;
 }
 
 .feed {
   @include grid-column(8);
-  border: 1px solid green;
+  border:1px solid green;
 }
 
 .related {

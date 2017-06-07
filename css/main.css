@@ -50,12 +50,14 @@
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 .profile-feed {
   width: calc(58.33333% - 31.66667px);
   float: left;
   margin-left: 20px;
+  border: 1px solid black;
 }
 
 .feed {

@@ -3,3 +3,8 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+@mixin fontSize($size) {
+  font-size: $size; //Fallback in px
+  font-size: calculateRem($size);
+}
