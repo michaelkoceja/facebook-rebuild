@@ -1,0 +1,77 @@
+.container::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+#header {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  width: calc(100% + 40px);
+}
+
+.logo {
+  width: calc(50% - 30px);
+  float: left;
+  margin-left: 20px;
+}
+
+.form-submit {
+  width: calc(50% - 30px);
+  float: left;
+  margin-left: 20px;
+}
+
+#header {
+  background-color: #3b5998;
+  color: white;
+  height: 85px;
+}
+#header a {
+  color: #9bb3d8;
+  margin-left: 145px;
+  text-decoration: none;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.form-submit {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.form-group {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding-right: 10px;
+  letter-spacing: .5px;
+}
+
+input {
+  display: block;
+}
+
+button {
+  background-color: #4267b2;
+  border-color: #29487d;
+  color: white;
+  padding: 5px;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

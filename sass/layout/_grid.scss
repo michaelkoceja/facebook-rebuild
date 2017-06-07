@@ -1,0 +1,20 @@
+.container {
+  @include grid-container;
+}
+
+// Header grid
+#header {
+  @include grid-column(12);
+  @include grid-collapse;
+
+}
+.logo {
+  @include grid-column(6 of 12);
+}
+
+.form-submit {
+  @include grid-column(6 of 12);
+}
+
+
+// Body grid

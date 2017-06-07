@@ -1,0 +1,41 @@
+#header {
+  background-color: $brand-color;
+  color: white;
+  height: 85px;
+  & a {
+    color: $forgot-color;
+    margin-left: 145px;
+    text-decoration: none;
+  }
+}
+
+.logo {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.form-submit {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.form-group {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding-right: 10px;
+  // text-shadow: 1px 1px #000;
+  letter-spacing: .5px;
+}
+
+input {
+  display: block;
+}
+
+button {
+  background-color: #4267b2;
+  border-color: #29487d;
+  color: white;
+  padding: 5px;
+}
