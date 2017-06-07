@@ -1,12 +1,13 @@
+@font-face {
+  font-family: 'klavika_boldbold_osf';
+  src: url("../fonts/klavika_bold_bold_osf-webfont.woff2") format("woff2"), url("../fonts/klavika_bold_bold_osf-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 .container {
   margin-left: -20px;
   margin-right: -20px;
   width: calc(100% + 40px);
-}
-.container::after {
-  clear: both;
-  content: "";
-  display: block;
 }
 
 #header {
@@ -27,11 +28,16 @@
   margin-left: 20px;
 }
 
-#body-content {
+#main {
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px;
   margin-left: calc(16.66667% - 23.33333px + 40px);
+}
+#main::after {
+  clear: both;
+  content: "";
+  display: block;
 }
 
 .side-nav {
@@ -41,9 +47,29 @@
 }
 
 .hero {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+}
+
+.profile-feed {
   width: calc(58.33333% - 31.66667px);
   float: left;
   margin-left: 20px;
+}
+
+.feed {
+  width: calc(66.66667% - 33.33333px);
+  float: left;
+  margin-left: 20px;
+  border: 1px solid green;
+}
+
+.related {
+  width: calc(33.33333% - 26.66667px);
+  float: left;
+  margin-left: 20px;
+  border: 1px solid blue;
 }
 
 #header {
@@ -61,6 +87,7 @@
   margin-top: 30px;
   font-weight: bold;
   font-size: 26px;
+  font-family: 'klavika_boldbold_osf';
 }
 
 .form-submit {
@@ -87,7 +114,7 @@ button {
 }
 
 .side-nav {
-  height: 100%;
+  height: 200px;
   border: 1px solid blue;
 }
 .side-nav li {
@@ -127,6 +154,7 @@ button {
 
 body {
   background-color: #e9ebee;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 a:hover {
