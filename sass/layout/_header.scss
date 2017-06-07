@@ -5,8 +5,11 @@
   & a {
     color: $forgot-color;
     margin-left: 145px;
-    text-decoration: none;
+    
   }
+  // & a:hover {
+  //   text-decoration: underline;
+  // }
 }
 
 .logo {
