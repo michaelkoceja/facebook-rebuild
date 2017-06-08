@@ -63,20 +63,28 @@
     height: 85px;
   }
   form.form-submit  {
-    border: 1px solid white;
+    min-width: 320px;
     @include centerer;
-    margin:0;
+    margin: 0;
 
   }
-  .side-nav {
-    @include grid-column(6);
-    & li {
-      display: inline-block;
 
-    }
-    & img {
+  .side-nav {
+    height: 250px !important;
+    @include grid-column(12);
+    & ul {
       @include grid-column(6);
+      margin-left: 100px;
     }
+
+    & img {
+      @include grid-column(4);
+    }
+  }
+
+  #main {
+    @include grid-push(-.5);
+    margin-top: 85px;
   }
 
 }
