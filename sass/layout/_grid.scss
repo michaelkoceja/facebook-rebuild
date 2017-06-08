@@ -36,42 +36,12 @@
 
 .profile-feed {
   @include grid-column(7);
-  border: 1px solid black;
 }
 
 .feed {
   @include grid-column(8);
-  border:1px solid green;
 }
 
 .related {
   @include grid-column(4);
-  border: 1px solid blue;
 }
-
-
-
-
-
-
-
-
-
-
-
-// #main-body {
-//   @include grid-column(12);
-//   @include grid-collapse;
-//   @include grid-push(1.5);
-//
-// }
-//
-// .feed {
-//   @include grid-column(5);
-//   border: 1px solid green;
-// }
-//
-// .related {
-//   @include grid-column(2);
-//   border: 1px solid blue;
-// }

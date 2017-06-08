@@ -6,10 +6,11 @@
     text-align: left;
     margin: 10px 0;
   }
-  & img {
+  & img{
     max-width: 100%;
     border: 3.5px solid $primary-color;
     border-radius: 5px;
+
   }
   & a {
     font-size: 25px;
@@ -21,4 +22,5 @@
     font-size: 14px;
     color: $forgot-color;
   }
+
 }
