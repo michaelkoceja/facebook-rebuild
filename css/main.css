@@ -169,9 +169,21 @@
     margin-left: 20px;
   }
 
+  .hero {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+
   #main {
     margin-left: calc(-4.16667% - 19.16667px + 40px);
     margin-top: 85px;
+  }
+
+  .profile-feed {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
   }
 }
 #header {
@@ -251,15 +263,6 @@ button {
   /* For testing only */
   margin: 0;
   padding: 0;
-}
-
-*:not(body):not(html) {
-  box-sizing: border-box;
-  border: 1px dashed #000;
-}
-
-.columns {
-  min-height: 100px;
 }
 
 body {

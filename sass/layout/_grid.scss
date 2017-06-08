@@ -50,7 +50,7 @@
   @include grid-column(4);
 }
 
-
+// Media Query Mobile-ish
 @include grid-media($neat-grid-mobile) {
   .logo {
     @include grid-column(12);
@@ -82,9 +82,16 @@
     }
   }
 
+  .hero {
+    @include grid-column(12);
+  }
+
   #main {
     @include grid-push(-.5);
     margin-top: 85px;
   }
 
+  .profile-feed {
+    @include grid-column(12);
+  }
 }
