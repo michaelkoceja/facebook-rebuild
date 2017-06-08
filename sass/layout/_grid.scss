@@ -32,6 +32,10 @@
   margin-bottom: 10px;
 }
 
+.blank {
+  @include grid-column(1.5 of 12);
+}
+
 //Main body grid
 
 .profile-feed {
@@ -44,4 +48,35 @@
 
 .related {
   @include grid-column(4);
+}
+
+
+@include grid-media($neat-grid-mobile) {
+  .logo {
+    @include grid-column(12);
+  }
+  .sign-in {
+    @include grid-column(12);
+    @include grid-collapse;
+    background-color: $brand-color;
+    position: relative;
+    height: 85px;
+  }
+  form.form-submit  {
+    border: 1px solid white;
+    @include centerer;
+    margin:0;
+
+  }
+  .side-nav {
+    @include grid-column(6);
+    & li {
+      display: inline-block;
+
+    }
+    & img {
+      @include grid-column(6);
+    }
+  }
+
 }

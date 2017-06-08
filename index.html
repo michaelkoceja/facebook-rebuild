@@ -14,20 +14,22 @@
         <div class="logo">
           <h1>facebook</h1>
         </div>
-        <form class="form-submit">
-          <div class="form-group">
-            <label for="email">Email or Phone</label>
-            <input type="text" name="email">
-          </div>
-          <div class="form-group">
-            <label for="password">Password</label>
-            <input type="text" name="password">
-          </div>
-          <button type="submit" name="button">Log In</button>
-          <div class="header-link">
-            <a href="#">Forgot account?</a>
-          </div>
-        </form>
+        <div class="sign-in">
+          <form class="form-submit">
+            <div class="form-group">
+              <label for="email">Email or Phone</label>
+              <input type="text" name="email">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="text" name="password">
+            </div>
+            <button type="submit" name="button">Log In</button>
+            <div class="header-link">
+              <a href="#">Forgot account?</a>
+            </div>
+          </form>
+        </div>
       </section>
         <!-- End Header -->
         <!-- Top body -->
@@ -57,15 +59,57 @@
           <div id="main-body">
             <section class="feed">
               <h4>Posts</h4>
-              <div class="user-post">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="post-container">
+                <div class="user-post">
+                  <div class="post-content">
+                    <a href="http://www.balivillas.com/"><img class="villa" src="img/vacay.jpg" alt="villas" /></a>
+                  </div>
+                </div>
+                <div class="comment-section">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <hr>
+                  <a href="#">292 shares</a>
+                  <hr>
+                  <a href="#">View all 21 comments</a>
+                </div>
+              </div><br>
+              <div class="post-container">
+                <div class="user-post">
+                  <div class="post-content">
+                    <a href="http://www.balivillas.com/"><img class="villa" src="img/vacay.jpg" alt="villas" /></a>
+                  </div>
+                </div>
+                <div class="comment-section">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <hr>
+                  <a href="#">292 shares</a>
+                  <hr>
+                  <a href="#">View all 21 comments</a>
+                </div>
               </div>
             </section>
             <section class="related">
-              <h1>Some other stuff</h1>
+              <div class="author">
+                <p>Author</p>
+              </div><br>
+              <div class="community">
+                <h6>Community</h6>
+                <p>Invite your friends to like this Page</p>
+                <p>14244353 people like this</p>
+                <p>5453454 people follow this</p>
+              </div><br>
+              <div class="about">
+                <h6>About</h6>
+                <p>Contact Plato in Paradise</p>
+                <p>dkfjiojoljsf.com/author/803533/plato</p>
+                <p>Author</p>
+              </div>
             </section>
           </div>
         </div><!-- End profile-feed -->
+        <div class="blank">
+
+        </div>
       </div>
     </div>
   </body>

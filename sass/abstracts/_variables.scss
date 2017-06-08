@@ -4,3 +4,9 @@ $background-color: #e9ebee;
 $text-color: #000;
 $primary-color: #fff;
 $common-border-color: #d0d1d5;
+
+$neat-grid-mobile: (
+  columns:12,
+  gutters: 0px,
+  media: "(max-width: 730px)"
+);

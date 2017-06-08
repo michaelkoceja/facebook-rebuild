@@ -1,9 +1,5 @@
-// rename file to profile feed
-
-
 .feed {
   background-color: $primary-color;
-  border: 1px solid #808080;
   @include common-border;
   padding: 14px 10px 10px;
   & h4 {
@@ -13,8 +9,31 @@
   }
 }
 
-.user-post {
-  border: 1px solid #808080;
+.post-container {
   @include common-border;
-    @extend %post;
+}
+
+.user-post {
+  padding: 7px;
+  & .post-content {
+    border: 1px solid $common-border-color;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.35);
+  }
+  & img {
+    max-width: 100%;
+  }
+}
+
+.comment-section {
+  background-color: $background-color;
+  & a {
+    color: $brand-color;
+  }
+}
+
+.author, .community, .about {
+  background-color: $primary-color;
+  @include common-border;
+  padding: 7px;
+  word-break: break-all;
 }
